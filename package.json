@@ -4,7 +4,7 @@
   "description": "An auth system designed by code-space",
   "main": "index.js",
   "scripts": {
-    "start":"index.js"
+    "start": "index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/shubham1507/codespace-auth/issues"
   },
-  "homepage": "https://github.com/shubham1507/codespace-auth#readme"
+  "homepage": "https://github.com/shubham1507/codespace-auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2"
+  }
 }
